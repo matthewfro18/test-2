@@ -18,6 +18,8 @@ class MenuCharacter extends FlxSprite
 	public var character:String;
 	public var hasConfirmAnimation:Bool = false;
 	private static var DEFAULT_CHARACTER:String = 'bf';
+	
+	var fps:Int;
 
 	public function new(x:Float, character:String = 'bf')
 	{
@@ -42,6 +44,12 @@ class MenuCharacter extends FlxSprite
 
 		hasConfirmAnimation = false;
 		switch(character) {
+			case 'cookie':
+         		frames = Paths.getSparrowAtlas("menus/storymenu/characters/cookie");
+         		animation.addByPrefix('idle', 'cookie idle', 12, true);
+			case 'dance':
+         		frames = Paths.getSparrowAtlas("menus/storymenu/characters/dance");
+             	animation.addByPrefix('idle', 'dance idle', 24, true);
 			case '':
 				visible = false;
 				dontPlayAnim = true;
