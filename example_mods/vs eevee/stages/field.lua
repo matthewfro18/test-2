@@ -8,4 +8,11 @@ function onCreate()
     setScrollFactor('mic', 1, 1);
     scaleObject('mic', 1, 1);
     addLuaSprite('mic', false);
+
+    makeAnimatedLuaSprite('gf', 'characters/dj', 0, 0)
+    addAnimationByPrefix('gf', 'idle', 'dj idle0', 12)
+    addAnimationByPrefix('gf', 'dotw', 'dj dotw0', 12)
+    objectPlayAnimation('gf', 'idle')
+    addLuaSprite('gf', false)
+    scaleObject('gf', 1, 1)
 end
