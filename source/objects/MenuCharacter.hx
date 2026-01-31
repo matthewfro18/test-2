@@ -11,6 +11,7 @@ typedef MenuCharacterFile = {
 	var confirm_anim:String;
 	var flipX:Bool;
 	var antialiasing:Null<Bool>;
+	var fps:Int;
 }
 
 class MenuCharacter extends FlxSprite
