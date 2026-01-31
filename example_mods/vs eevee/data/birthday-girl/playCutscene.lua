@@ -1,5 +1,5 @@
 playVideo = true;
-playDialogue = false;
+playDialogue = true;
 
 function onStartCountdown()
 	if isStoryMode and not seenCutscene then
@@ -14,4 +14,5 @@ function onStartCountdown()
 		end
 	end
 	return Function_Continue; --Played video and dialogue, now the song can start normally
+
 end
