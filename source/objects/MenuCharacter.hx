@@ -47,9 +47,12 @@ class MenuCharacter extends FlxSprite
 			case 'cookie':
          		frames = Paths.getSparrowAtlas("menus/storymenu/characters/cookie");
          		animation.addByPrefix('idle', 'cookie idle', 12, true);
+	         	scale.set(0.5, 0.5);
+				playAnim("idle");
 			case 'dance':
          		frames = Paths.getSparrowAtlas("menus/storymenu/characters/dance");
              	animation.addByPrefix('idle', 'dance idle', 24, true);
+				playAnim("idle");
 			case '':
 				visible = false;
 				dontPlayAnim = true;
