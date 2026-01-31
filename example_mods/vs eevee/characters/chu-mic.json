@@ -1,35 +1,24 @@
 {
 	"healthbar_colors": [
-		253,
-		161,
-		161
+		255,
+		225,
+		97
 	],
 	"position": [
-		-150,
-		50
+		-600,
+		70
 	],
 	"no_antialiasing": false,
 	"scale": 1,
 	"camera_position": [
-		-150,
+		0,
 		50
 	],
-	"image": "characters/neary",
+	"image": "characters/chu-mic",
 	"sing_duration": 4,
-	"healthicon": "neary",
-	"flip_x": false,
+	"healthicon": "chu-mic",
+	"flip_x": true,
 	"animations": [
-		{
-			"loop": true,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 10,
-			"anim": "idle",
-			"indices": [],
-			"name": "neary idle0"
-		},
 		{
 			"loop": false,
 			"offsets": [
@@ -39,7 +28,18 @@
 			"fps": 12,
 			"anim": "singUP",
 			"indices": [],
-			"name": "neary up0"
+			"name": "chu-mic up0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "chu-mic miss up0"
 		},
 		{
 			"loop": false,
@@ -50,7 +50,18 @@
 			"fps": 12,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "neary down0"
+			"name": "chu-mic down0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "chu-mic miss down0"
 		},
 		{
 			"loop": false,
@@ -61,7 +72,18 @@
 			"fps": 12,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "neary left0"
+			"name": "chu-mic left0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "chu-mic miss left0"
 		},
 		{
 			"loop": false,
@@ -72,18 +94,7 @@
 			"fps": 12,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "neary right0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 6,
-			"anim": "peace",
-			"indices": [],
-			"name": "neary peace0"
+			"name": "chu-mic right0"
 		},
 		{
 			"loop": false,
@@ -92,9 +103,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "giggle",
+			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "neary giggle0"
+			"name": "chu-mic miss right0"
 		},
 		{
 			"loop": true,
@@ -103,9 +114,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "idle-alt",
+			"anim": "chu-mic hey",
 			"indices": [],
-			"name": "neary idle alt0"
+			"name": "chu-mic hey0"
 		},
 		{
 			"loop": false,
@@ -114,9 +125,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "woah",
+			"anim": "chu-mic ah",
 			"indices": [],
-			"name": "neary woah0"
+			"name": "chu-mic ah0"
 		},
 		{
 			"loop": false,
@@ -125,64 +136,20 @@
 				0
 			],
 			"fps": 12,
-			"anim": "woah2",
+			"anim": "idle",
 			"indices": [],
-			"name": "neary didit0"
+			"name": "chu-mic idle0"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-20,
+				444
 			],
 			"fps": 12,
-			"anim": "end",
+			"anim": "pika",
 			"indices": [],
-			"name": "neary end0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "neary right alt0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "neary left alt0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singUP-alt",
-			"indices": [],
-			"name": "neary up alt0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "neary down alt0"
+			"name": "chu-mic bruh0"
 		}
 	]
 }

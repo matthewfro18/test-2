@@ -1,0 +1,133 @@
+{
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		0,
+		0
+	],
+	"image": "characters/neary-dj",
+	"sing_duration": 4,
+	"healthicon": "neary-dj",
+	"flip_x": false,
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "prebump",
+			"indices": [],
+			"name": "neary-dj prebump0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "bump",
+			"indices": [],
+			"name": "neary-dj bump0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "presparkle",
+			"indices": [],
+			"name": "neary-dj presparkle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "transition",
+			"indices": [],
+			"name": "neary-dj transition0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "preclap",
+			"indices": [],
+			"name": "neary-dj preclap0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 8,
+			"anim": "clap",
+			"indices": [],
+			"name": "neary-dj clap0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "sparkle",
+			"indices": [],
+			"name": "neary-dj sparkle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "neary-dj idle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "neary-dj idle alt0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "sparkle2",
+			"indices": [],
+			"name": "neary-dj sparkle2"
+		}
+	]
+}

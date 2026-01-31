@@ -1,0 +1,45 @@
+{
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		-230,
+		100
+	],
+	"image": "characters/chu dead",
+	"sing_duration": 4,
+	"healthicon": "chu dead",
+	"flip_x": false,
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "chu-dead die0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "chu-dead deathloop0"
+		}
+	]
+}

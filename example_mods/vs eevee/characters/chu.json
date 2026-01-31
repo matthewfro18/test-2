@@ -1,34 +1,34 @@
 {
 	"healthbar_colors": [
-		253,
-		161,
-		161
+		255,
+		225,
+		97
 	],
 	"position": [
-		-150,
-		50
+		-450,
+		-350
 	],
 	"no_antialiasing": false,
 	"scale": 1,
 	"camera_position": [
-		-150,
-		50
+		0,
+		0
 	],
-	"image": "characters/neary",
+	"image": "characters/chu",
 	"sing_duration": 4,
-	"healthicon": "neary",
-	"flip_x": false,
+	"healthicon": "chu",
+	"flip_x": true,
 	"animations": [
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"fps": 10,
+			"fps": 12,
 			"anim": "idle",
 			"indices": [],
-			"name": "neary idle0"
+			"name": "chu idle0"
 		},
 		{
 			"loop": false,
@@ -39,7 +39,18 @@
 			"fps": 12,
 			"anim": "singUP",
 			"indices": [],
-			"name": "neary up0"
+			"name": "chu up0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "chu up miss0"
 		},
 		{
 			"loop": false,
@@ -50,7 +61,7 @@
 			"fps": 12,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "neary down0"
+			"name": "chu down0"
 		},
 		{
 			"loop": false,
@@ -59,9 +70,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "singLEFT",
+			"anim": "singDOWNmiss",
 			"indices": [],
-			"name": "neary left0"
+			"name": "chu down miss0"
 		},
 		{
 			"loop": false,
@@ -72,18 +83,7 @@
 			"fps": 12,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "neary right0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 6,
-			"anim": "peace",
-			"indices": [],
-			"name": "neary peace0"
+			"name": "chu right0"
 		},
 		{
 			"loop": false,
@@ -92,20 +92,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "giggle",
+			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "neary giggle0"
-		},
-		{
-			"loop": true,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "idle-alt",
-			"indices": [],
-			"name": "neary idle alt0"
+			"name": "chu right miss0"
 		},
 		{
 			"loop": false,
@@ -114,9 +103,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "woah",
+			"anim": "singLEFT",
 			"indices": [],
-			"name": "neary woah0"
+			"name": "chu left0"
 		},
 		{
 			"loop": false,
@@ -125,42 +114,9 @@
 				0
 			],
 			"fps": 12,
-			"anim": "woah2",
+			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "neary didit0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "end",
-			"indices": [],
-			"name": "neary end0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "neary right alt0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "neary left alt0"
+			"name": "chu left miss0"
 		},
 		{
 			"loop": false,
@@ -171,7 +127,7 @@
 			"fps": 12,
 			"anim": "singUP-alt",
 			"indices": [],
-			"name": "neary up alt0"
+			"name": "chu up alt0"
 		},
 		{
 			"loop": false,
@@ -182,7 +138,95 @@
 			"fps": 12,
 			"anim": "singDOWN-alt",
 			"indices": [],
-			"name": "neary down alt0"
+			"name": "chu down alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "chu right alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "chu left alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "chu idle alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "transition",
+			"indices": [],
+			"name": "chu transition0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-altbb",
+			"indices": [],
+			"name": "chu down bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altbb",
+			"indices": [],
+			"name": "chu up bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altbb",
+			"indices": [],
+			"name": "chu left bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altbb",
+			"indices": [],
+			"name": "chu right bb"
 		}
 	]
 }

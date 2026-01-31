@@ -1,0 +1,430 @@
+{
+	"healthbar_colors": [
+		228,
+		127,
+		44
+	],
+	"position": [
+		0,
+		-50
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"camera_position": [
+		-260,
+		40
+	],
+	"image": "characters/eevee",
+	"sing_duration": 4,
+	"healthicon": "eevee",
+	"flip_x": false,
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "eevee idle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "eevee right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "eevee left0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "eevee down0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "eevee up0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "eevee up alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "eevee down alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "eevee right alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "eevee left alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "presparkle",
+			"indices": [],
+			"name": "eevee presparkle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "sparkle",
+			"indices": [],
+			"name": "eevee sparkle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altyea",
+			"indices": [],
+			"name": "eevee hey0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "party",
+			"indices": [],
+			"name": "eevee party0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "eevee idle alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "laugh",
+			"indices": [],
+			"name": "eevee laugh0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "transition",
+			"indices": [],
+			"name": "eevee transition0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "vuivee",
+			"indices": [],
+			"name": "eevee vuivee0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altyea",
+			"indices": [],
+			"name": "eevee yea0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "sparkle2",
+			"indices": [],
+			"name": "eevee sparkle2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altsparkle",
+			"indices": [],
+			"name": "eevee up sparkle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-altsparkle",
+			"indices": [],
+			"name": "eevee down sparkle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altsparkle",
+			"indices": [],
+			"name": "eevee left sparkle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altsparkle",
+			"indices": [],
+			"name": "eevee right sparkle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altbb",
+			"indices": [],
+			"name": "eevee up bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-altbb",
+			"indices": [],
+			"name": "eevee down bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altbb",
+			"indices": [],
+			"name": "eevee left bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altbb",
+			"indices": [],
+			"name": "eevee right bb"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altvui",
+			"indices": [],
+			"name": "eevee up vui"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-altvui",
+			"indices": [],
+			"name": "eevee down vui"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altvui",
+			"indices": [],
+			"name": "eevee left vui"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altvui",
+			"indices": [],
+			"name": "eevee right vui"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altsilly",
+			"indices": [],
+			"name": "eevee up silly"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singDOWN-altsilly",
+			"indices": [],
+			"name": "eevee down silly"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altsilly",
+			"indices": [],
+			"name": "eevee right silly"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singLEFT-altsilly",
+			"indices": [],
+			"name": "eevee left silly"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singUP-altextra",
+			"indices": [],
+			"name": "eevee up alt 2"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "singRIGHT-altextra",
+			"indices": [],
+			"name": "eevee right alt 2"
+		}
+	]
+}
