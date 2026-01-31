@@ -28,8 +28,7 @@ class MenuCharacterEditorState extends MusicBeatState implements PsychUIEventHan
 			idle_anim: 'M Dad Idle',
 			confirm_anim: 'M Dad Idle',
 			flipX: false,
-			antialiasing: true,
-			fps: 24
+			antialiasing: true
 		};
 		
 		#if DISCORD_ALLOWED
@@ -113,7 +112,6 @@ class MenuCharacterEditorState extends MusicBeatState implements PsychUIEventHan
 	var scaleStepper:PsychUINumericStepper;
 	var flipXCheckbox:PsychUICheckBox;
 	var antialiasingCheckbox:PsychUICheckBox;
-	var fpsInputText:PsychUIInputText;
 	function addCharacterUI() {
 		var tab_group = UI_mainbox.getTab('Character').menu;
 		
@@ -135,7 +133,6 @@ class MenuCharacterEditorState extends MusicBeatState implements PsychUIEventHan
 			grpWeekCharacters.members[characterTypeRadio.checked].antialiasing = antialiasingCheckbox.checked;
 			characterFile.antialiasing = antialiasingCheckbox.checked;
 		};
-		fpsInputText = new PsychUIInputText(10, 20, 80, characterFile.fps, 8);
 
 		var reloadImageButton:PsychUIButton = new PsychUIButton(140, confirmInputText.y + 30, "Reload Char", function() {
 			reloadSelectedCharacter();
@@ -155,7 +152,6 @@ class MenuCharacterEditorState extends MusicBeatState implements PsychUIEventHan
 		tab_group.add(idleInputText);
 		tab_group.add(confirmInputText);
 		tab_group.add(scaleStepper);
-		tab_group.add(new FlxText(10, fpsInputText.y - 18, 0, 'FPS:'));
 	}
 
 	function updateCharacters() {
