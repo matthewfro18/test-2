@@ -409,6 +409,11 @@ class StoryMenuState extends MusicBeatState
 	{
 		curWeek += change;
 
+		if (char.character != 'nonsense')
+		{
+			char.animation.play('intro');
+		}
+
 		if (curWeek >= loadedWeeks.length)
 			curWeek = 0;
 		if (curWeek < 0)
