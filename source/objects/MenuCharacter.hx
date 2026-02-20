@@ -59,6 +59,13 @@ class MenuCharacter extends FlxSprite
 			case '':
 				visible = false;
 				dontPlayAnim = true;
+			case 'nonsense':
+         		frames = Paths.getSparrowAtlas("menucharacters/nonsense");
+             	animation.addByPrefix('idle', 'loop', 24, true);
+			   	animation.addByPrefix('intro', 'intro', 24, true);
+				scale.set(0.5, 0.5);
+				offset.set(160, 150);
+				animation.play("idle");
 			default:
 				var characterPath:String = 'images/menucharacters/' + character + '.json';
 
